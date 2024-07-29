@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Manipulação de DOM</title>
+</head>
+<body>
+    <h1>manipulação de DOM</h1>
+    <p name="paragrafo"> 
+        to aprendendo a usar essa bagaça
+    </p>
+    <div id="div-1">
+        <p id="paragrafo">
+            Testando manipulação de DOM
+        </p>
+    </div>
+    <script>
+        var x = window.document.getElementsByTagName('h1')[0]
+        x.style.color = "yellow"
+
+        var y = window.document.getElementsByTagName('p')[0]
+        y.style.background.Color = "yellow"
+
+       // window.alert(y.innerText)
+        //var z = window.document.querySelector("div#div-1")
+        //z.style.textAlign = "center"
+
+        window.document.write('texte de escrita aleatória')
+
+        var t = window.document.getElementsByTagName('h1')[0]
+        t.innerHTML = 'acabei de alterar o titulo'
+
+       
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+*{
+    margin-left: 25px;
+    color: aliceblue;
+    background-color: #303030;
+}
+
+h1{
+    text-align: center;
+}
+
+#div-1{
+    text-align: center;
+}
+
+#div-1 p{
+    color: aquamarine;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+
+}
