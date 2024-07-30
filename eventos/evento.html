@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div onmouseenter="PintarAqua()" id="d1">
+        conteúdo
+    </div>
+    <button onclick="PintarVermelho()" >Mudar para vermelho</button>
+    <script>
+
+        function PintarVermelho(){
+            d1.style.backgroundColor = "red"
+        }
+
+        function PintarAqua(){
+            d1.style.backgroundColor = "aqua"
+        }
+        var d1 = window.document.getElementById("d1")
+        d1.addEventListener()
+    </script>
+</body>
+</html>
